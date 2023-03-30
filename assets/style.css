@@ -1,0 +1,65 @@
+
+:root {
+    --darkblue: #163199;
+    --lightblue: #4967E3;
+    --darkgreen: #5F9629;
+    --lightgreen: #8AE332;
+}
+
+/* Start of Header */
+
+header {
+    padding: 30px;
+    background-color: lightblue;
+    text-align: center;
+    border: solid 4px darkblue;
+}
+
+/* Search Bar */
+
+.searchbar {
+    margin-top: 4%;
+    margin-bottom: 3.5%;
+    text-align: center;
+}
+
+.searchbar input {
+    width: 200px;
+    height: 20px;
+}
+
+/* Weathercontent class */
+
+.weathercontent {
+    height: 630px;
+    background-color: lightblue;
+    border: solid 4px darkblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.localweather {
+    width: 28%;
+    background-color: var(--darkgreen);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 590px;
+}
+
+.localweather h1 {
+    text-align: center;
+}
+
+.searchresults {
+    width: 68%;
+    background-color:#5F9629;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 590px;
+}
+
+.searchresults h1 {
+    text-align: center;
+}
