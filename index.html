@@ -5,6 +5,11 @@
   <title>Weather App</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script
+  src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+  integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+  crossorigin="anonymous"
+></script>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
@@ -24,7 +29,27 @@
             <h1>Recently Viewed Cities</h1>
         </div>
         <div class="searchresults">
-            <h1>5 Day Forecast</h1>
+            <h1 id="currentday"></h1>
+            <div class="realsearchresults">
+            </div>
+            <div class="fivedayforecast">
+              <section class="card">
+                <h1 id="1"></h1>
+              </section>
+              <section class="card">
+                <h1 id="2"></h1>
+              </section>
+              <section class="card">
+                <h1 id="3"></h1>
+              </section>
+              <section class="card">
+                <h1 id="4"></h1>
+              </section>
+              <section class="card">
+                <h1 id="5"></h1>
+                <p></p>
+              </section>
+            </div>
         </div>
     </div>
   </main>

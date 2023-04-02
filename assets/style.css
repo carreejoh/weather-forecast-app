@@ -63,3 +63,25 @@ header {
 .searchresults h1 {
     text-align: center;
 }
+
+.realsearchresults {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30%;
+}
+
+.fivedayforecast {
+    height: 30%;
+    position: fixed;
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #4967E3;
+    width: 200px;
+    height: 200px;
+}
